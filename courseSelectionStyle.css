@@ -1,0 +1,310 @@
+/* 
+    Document   : courseSelectionStyle
+    Created on : May 5, 2013, 9:34:09 AM
+    Author     : jordan
+    Description:
+*/
+
+body{
+    background-color: #EDEDDE;
+}
+
+
+h1 {
+}
+
+.highlighted {
+    background-color: #6a2b2b;
+    color: #EDEDDE;
+}
+
+#bannerUnderline{
+    width: 97%;
+    margin-bottom: 15px;
+}
+#underline{
+    size: 5px;
+    color: #6a2b2b;
+}
+
+#header{
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    color: #6a2b2b;
+}
+
+.editPrerequisits{
+    min-height: 100px;
+    min-width: 100px;
+}
+
+.editPrerequisits div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.editPrerequisits form{
+}
+
+#editPrerequisitsLeft{
+    float: left;
+}
+
+#editPrerequisitsRight{
+    float: right;
+}
+#editPrerequisitsBottom{
+    float: bottom;
+    clear: both;
+}
+
+#backToClassButton{
+    float: left;
+}
+
+#continueToGraphButton{
+    float: right;
+}
+
+.input{
+    position: relative;
+    padding: 15px;
+    border: 2px dashed black;
+    display: inline-block;
+    float: left;
+}
+.input form{
+    margin-left: 20px;
+}
+#left{
+    float: left;
+}
+
+#right{
+    float: left;
+    margin-left: 30px;
+    min-width: 200px;
+}
+
+#right ul{
+    list-style-type: none;
+}
+
+#right ul li{
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.input h3{
+    padding-top: 0px;
+    margin-top: 0px;
+    color: #6a2b2b;
+    font-family: Verdana, sans-serif;
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+
+.button{
+    background-color: #6a2b2b;
+    color: #EDEDDE;
+    text-align: center;
+    border-radius: 10px;
+    height: 25px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    display: inline;
+}
+
+#left ul {
+    list-style-type: none;
+}
+
+#removePrereqButton{
+    float: right;
+}
+
+#prereqTable tr{
+    cursor: pointer;
+    text-align: center;
+}
+/*
+#graphCanvas{
+    height: 500px;
+    width: available;
+    background-color: white;
+    border: 3px solid #6a2b2b;
+}
+*/
+/*targeting radio buttons on form*/
+#left li input{
+    margin-right: 5px;
+}
+
+#hasseGraph{
+    margin-left: 2%;
+    height: 500px;
+    width: 75%;
+    padding: 0px;
+}
+
+#listWrapper{
+    position: absolute;
+    width: 60%;
+    margin-left: 16%;
+    margin-top: 20px;
+}
+
+.lWrap{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    border-right: 1px solid #6a2b2b;
+    border-left: 1px solid #6a2b2b;
+    border-bottom: 2px solid #6a2b2b;
+    text-align: center;
+    width: 24%
+}
+
+#bottomButtonWrap{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    float: bottom;
+    clear: both;
+    padding: 0px;
+    padding-top: 20px;
+}
+/*
+#bottomButtonWrap .button{
+    margin-right: 20%;
+    margin-top: 30px;
+}
+*/
+
+#clearOrdering{
+    margin-right: 25%;
+    margin-top: 30px;
+    
+}
+
+#printVersion{
+    margin-right: 25%;
+    margin-top: 30px;
+}
+#saveOrder{
+    margin-right: 0%;
+    margin-top: 30px;
+}
+
+#prereqTable th{
+    border-bottom: 1px solid #6a2b2b;
+    padding-right: 15px;
+}
+
+.disabled {
+    display: none;
+}
+
+#partialOrdersInfo{
+    float:top;
+}
+
+#forwardButton{
+    float: right;
+    margin: 5px; 
+}
+
+#backButton{
+    float:left;
+    margin: 5px;
+}
+
+#classSearch{
+    float: right;
+    width: 20%;
+    min-height: 300px;
+    max-height: 500px;
+}
+
+#classSearch ul{
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: visible;
+}
+
+#classSearchList li{
+    background-color: #6a2b2b;
+    cursor: move;
+}
+
+#classSearch p{
+    background-color: #FFF;
+}
+
+.dragList{
+    list-style-type: none; /*to remove bullets*/
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    display:table;
+    overflow: hidden;
+    color: #EDEDDE;
+        
+}
+
+.dragList li{
+    padding: 2px;
+    width: 90%;
+    margin-left: auto ;
+    margin-right: auto ;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    border: 1px solid #6a2b2b;
+    min-height: 25px;
+}
+.semesterList li{
+    color: #6a2b2b;
+}
+.menuButton{
+    background-color: #6a2b2b;
+    color: #EDEDDE;
+    border-radius: 10px;
+    width: 120%;
+    height: 25px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#partialOrders{
+    margin-left: 2%;
+    min-height: 500px;
+    width: 75%;
+}
+
+#partialOrdersHeader{
+    float: top;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    color: #6a2b2b;
+}
+#editPrereq{
+    margin-left: 2%;
+    height: 500px;
+    width: 75%;
+}
+#navMenu {
+    overflow: no-display;
+    width: 15%;
+    border-top: 2px solid #6a2b2b; 
+    border-left: 2px solid #6a2b2b;
+    float: right;
+    margin-right: -25px;
+    margin-top: 50px;
+    padding: 20px;
+}
